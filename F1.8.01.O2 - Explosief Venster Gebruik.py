@@ -1,4 +1,4 @@
-import tkinter,random,webbrowser,os
+import tkinter,os
 
 window = tkinter.Tk()
 window.title("My First Window")
