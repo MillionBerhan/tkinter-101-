@@ -7,10 +7,11 @@ import random
 window = tk.Tk()
 window.title("Grabbelton!")
 window.geometry("500x500")
+window.configure(bg="black")
 
 # benodigdheden van de opdracht
-grabbelton = ["Huis","Fles","Tesla Model X","Tesla Model S","Kaas","DaVinci schoolgebouw","5 Frikandellen","Cadeaukaart T.W.V €10","Magnetron","Appel"," 1 liter bakvet","Citroen","Danootje","Envelop","Frans toets","Gitaar","Hotelovernachting","Indirecte vrij trap","Jojo","Kanon","Lepel","Mint"]
-gegrabbeldespullen = []
+grabbelton = ["Huis","Fles","Tesla Model X","Tesla Model S","Kaas","DaVinci schoolgebouw","5 Frikandellen","Cadeaukaart T.W.V €10","Magnetron","Appel"," 1 liter bakvet","Citroen","Danootje","Envelop","Frans toets","Gitaar","Hotelovernachting","Indirecte vrij trap","Jojo","Kanon","Lepel","Mint"] # dit is de lijst met de spullen die je kunt grabbelen
+gegrabbeldespullen = [] # hier worden de gegrabbelde spullen in een lijst opgeslagen
 #
 opties = {'fill': 'both', 'padx': 100, 'pady': 100, 'ipadx': 15} # hiermee kun je de button verplaatsen
 
